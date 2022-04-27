@@ -1,8 +1,8 @@
 {
-  "name": "discourse-plugin-name",
+  "name": "discourse-plugin-tg",
   "version": "0.0.1",
-  "repository": "TODO",
-  "author": "Discourse",
+  "repository": "https://github.com/tonymagro/discourse-plugin-tg",
+  "author": "TG",
   "license": "MIT",
   "devDependencies": {
     "eslint-config-discourse": "^1.1.8"
