@@ -7,9 +7,7 @@
 # url: https://github.com/tonymagro/discourse-plugin-tg
 # required_version: 2.7.0
 
-enabled_site_setting :plugin_name_enabled
-
-register_asset "javascripts/discourse/templates/connectors/topic-footer/youtube-link-display.hbs"
+#enabled_site_setting :tg_enabled
 
 after_initialize do
   # Listen to topic view events
