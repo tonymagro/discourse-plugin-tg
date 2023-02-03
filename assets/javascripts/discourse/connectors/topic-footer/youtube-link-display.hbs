@@ -1,0 +1,12 @@
+<!-- app/assets/javascripts/discourse/templates/connectors/topic-footer/youtube-link-display.hbs -->
+
+{{#if links}}
+  <div class="topic-youtube-links">
+    <h3>YouTube Links</h3>
+    <ul>
+      {{#each links}}
+        <li><a href="{{this}}">{{this}}</a></li>
+      {{/each}}
+    </ul>
+  </div>
+{{/if}}
