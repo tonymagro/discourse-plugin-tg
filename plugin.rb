@@ -6,9 +6,9 @@
 # authors: TG
 # url: https://github.com/tonymagro/discourse-plugin-tg
 # required_version: 2.7.0
-# transpile_js: true
 
-# Register the plugin
+enabled_site_setting :plugin_name_enabled
+
 register_asset "javascripts/discourse/templates/connectors/topic-footer/youtube-link-display.hbs"
 
 after_initialize do
