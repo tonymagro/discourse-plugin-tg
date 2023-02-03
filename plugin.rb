@@ -7,7 +7,7 @@
 # url: https://github.com/tonymagro/discourse-plugin-tg
 # required_version: 2.7.0
 
-#enabled_site_setting :tg_enabled
+enabled_site_setting :tg_enabled
 
 after_initialize do
   # Listen to topic view events
